@@ -3,11 +3,11 @@
 # Exit immediately if a command exits with a non-zero status
 set -eE
 
-export PATH="$HOME/.local/share/crafty-mac/bin:$PATH"
-SETUP_INSTALL=~/.local/share/crafty-mac/install
+export PATH="$HOME/.local/share/craftymac/bin:$PATH"
+SETUP_INSTALL=~/.local/share/craftymac/install
 
 # Load core libraries
-source ~/.local/share/crafty-mac/lib/core.sh
+source ~/.local/share/craftymac/lib/core.sh
 
 # Preflight checks
 source $SETUP_INSTALL/preflight/show-env.sh

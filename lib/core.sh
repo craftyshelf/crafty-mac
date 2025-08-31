@@ -12,7 +12,7 @@ export NC='\033[0m'
 # Configuration
 export USER=$(whoami)
 export HOME_DIR="/Users/$USER"
-export SETUP_DIR="$HOME/.local/share/crafty-mac"
+export SETUP_DIR="$HOME/.local/share/craftymac"
 export CONFIG_DIR="$SETUP_DIR/config"
 export DOTFILES_REPO="https://github.com/craftyshelf/dotfiles.git"
 
@@ -113,7 +113,7 @@ cleanup_installation() {
     fi
 
     # Remove temporary files
-    rm -rf /tmp/crafty-mac-* 2>/dev/null || true
+    rm -rf /tmp/craftymac-* 2>/dev/null || true
 }
 
 # Show completion message

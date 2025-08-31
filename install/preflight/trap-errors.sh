@@ -20,8 +20,8 @@ catch_errors() {
     echo "  • Check available disk space"
     echo
     echo -e "${BLUE}Get Help:${NC}"
-    echo "  • GitHub Issues: https://github.com/craftyshelf/crafty-mac/issues"
-    echo "  • Retry: bash ~/.local/share/crafty-mac/install.sh"
+    echo "  • GitHub Issues: https://github.com/craftyshelf/craftymac/issues"
+    echo "  • Retry: bash ~/.local/share/craftymac/install.sh"
     echo
 
     exit $exit_code
