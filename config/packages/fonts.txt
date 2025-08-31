@@ -1,0 +1,2 @@
+# Nerd fonts
+font-caskaydia-mono-nerd-font

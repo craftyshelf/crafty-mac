@@ -1,0 +1,13 @@
+# Git
+git
+gh
+ghq
+lazygit
+git-delta
+
+# Editor
+neovim
+
+# Utilities
+btop
+fastfetch
